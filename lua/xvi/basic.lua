@@ -1,3 +1,5 @@
+vim.opt.showmode = false
+
 -- Line numbers
 vim.opt.nu = true
 vim.opt.relativenumber = false
