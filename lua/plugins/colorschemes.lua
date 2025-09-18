@@ -1,4 +1,4 @@
 return {
-  'morhetz/gruvbox', 
-  config = function() vim.cmd.colorscheme("gruvbox") end 
+  'catppuccin/nvim', name = "catppuccin",
+  config = function() vim.cmd.colorscheme("catppuccin") end 
 }
