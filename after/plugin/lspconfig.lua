@@ -3,6 +3,9 @@ vim.lsp.enable('clangd');
 vim.lsp.enable('cmake');
 vim.lsp.enable('jsonls');
 vim.lsp.enable('cssls');
+vim.lsp.enable('ols');
+vim.lsp.enable('serve_d')
+vim.lsp.enable('qmlls')
 
 vim.diagnostic.config({
   virtual_text = true,
