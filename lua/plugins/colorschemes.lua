@@ -1,14 +1,18 @@
--- return {
---  'catppuccin/nvim', name = "catppuccin",
---  config = function() vim.cmd.colorscheme("catppuccin") end 
---}
+-- current colorscheme:
+vim.g.zenbones_darken_comments = 45
+vim.cmd.colorscheme('zenbones')
 
--- return {
---    'morhetz/gruvbox', name = "gruvbox",
---    config = function()
---        vim.g.gruvbox_contrast_dark = "hard"
---          vim.cmd.colorscheme("gruvbox")
---    end
---}
-
-return { 'EdenEast/nightfox.nvim', config = function() vim.cmd.colorscheme("carbonfox") end }
+return
+{
+    'catppuccin/nvim', name = "catppuccin",
+},
+{
+    'morhetz/gruvbox', name = "gruvbox",
+},
+{
+    'EdenEast/nightfox.nvim',
+},
+{
+    "zenbones-theme/zenbones.nvim",
+    lazy = false
+}
